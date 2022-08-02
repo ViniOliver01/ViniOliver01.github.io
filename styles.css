@@ -110,7 +110,7 @@ h1 {
     margin: auto;
     bottom: 2rem;
     animation-name: pulseArrow;
-    animation-duration: 1s;
+    animation-duration: s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
