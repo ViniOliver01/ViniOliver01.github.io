@@ -16,28 +16,44 @@
     <nav>
         <a href="https://github.com/ViniOliver01"><img src="./assets/logotipo-do-github.svg" alt=""></a>
         <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">TOOLS</a></li>
-            <li><a href="">PROJECTS</a></li>
-            <li><a href="">CONTACT</a></li>
+            <li><a href="#home" id="tohome" onclick="ScrollBt(this.id)" class="clickedNavItem">HOME</a></li>
+            <li><a href="#tools" id="totools" onclick="ScrollBt(this.id)" class="">TOOLS</a></li>
+            <li><a href="#projects" id="toprojects" onclick="ScrollBt(this.id)" class="">PROJECTS</a></li>
+            <li><a href="#contact" id="tocontact" onclick="ScrollBt(this.id)" class="">CONTACT</a></li>
         </ul>
     </nav>
 
     <main>
-        <div class="Profile">
-            <img src="https://github.com/ViniOliver01.png" alt="">
-            <div class="ProfileInfo">
-                <h2>Vinicius Oliveira</h2>
-                <h3>Full-Stack Developer</h3>
-                <h4>Iperó - SP</h4>
+        <section id="home">
+            <div class="Profile">
+                <img src="https://github.com/ViniOliver01.png" alt="">
+                <div class="ProfileInfo">
+                    <h2>Vinicius Oliveira</h2>
+                    <h3>Full-Stack Developer</h3>
+                    <h4>Iperó - SP</h4>
+                </div>
             </div>
-        </div>
-        <h1>Código para vida</h1>
-        <div class="buttons">
-            <Button>Confira meus projetos</Button>
-            <Button>Entre em contato</Button>
-        </div>
-        <img id="arrow"src="./assets/arrow.svg" alt="">
-        </main>
+            <h1>Código para vida</h1>
+            <div class="buttons">
+                <a href="#projects"><Button >Confira meus projetos</Button></a>
+                <a href="#contact"><Button >Entre em contato</Button></a>
+            </div>
+            <img id="arrow"src="./assets/arrow.svg" alt="">
+        </section>
+        <section id="tools">
+            <h1>tools</h1>
+        </section>
+
+        <section id="projects">
+            <h1>projects</h1>
+        </section>
+
+        <section id="contact">
+            <h1>contact</h1>
+        </section>
+        
+    </main>
 </body>
+
+<script src="scripts.js"></script>
 </html>
