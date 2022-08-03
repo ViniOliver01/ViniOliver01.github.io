@@ -18,15 +18,15 @@
     <nav>
         <a href="https://github.com/ViniOliver01"><img src="./assets/logotipo-do-github.svg" alt=""></a>
         <ul>
-            <li><a href="#home" id="tohome" onclick="ScrollBt(this.id)" class="clickedNavItem">HOME</a></li>
-            <li><a href="#tools" id="totools" onclick="ScrollBt(this.id)" class="">TOOLS</a></li>
-            <li><a href="#projects" id="toprojects" onclick="ScrollBt(this.id)" class="">PROJECTS</a></li>
-            <li><a href="#contact" id="tocontact" onclick="ScrollBt(this.id)" class="">CONTACT</a></li>
+            <li><a href="#home" id="gohome" onclick="ScrollBt(this.id)" class="clickedNavItem">HOME</a></li>
+            <li><a href="#tools" id="gotools" onclick="ScrollBt(this.id)" class="">TOOLS</a></li>
+            <li><a href="#projects" id="goprojects" onclick="ScrollBt(this.id)" class="">PROJECTS</a></li>
+            <li><a href="#contact" id="gocontact" onclick="ScrollBt(this.id)" class="">CONTACT</a></li>
         </ul>
     </nav>
 
     <main>
-        <section id="home">
+        <section id="home" onmouseover="sectionHover(this.id)">
             <div class="Profile">
                 <img src="https://github.com/ViniOliver01.png" alt="">
                 <div class="ProfileInfo">
@@ -37,13 +37,13 @@
             </div>
             <h1>Código para vida</h1>
             <div class="buttons">
-                <a href="#projects"><Button >Confira meus projetos</Button></a>
-                <a href="#contact"><Button >Entre em contato</Button></a>
+                <a href="#projects" id="goprojects" onclick="ScrollBt(this.id)"><Button >Confira meus projetos</Button></a>
+                <a href="#contact" id="gocontact" onclick="ScrollBt(this.id)"><Button >Entre em contato</Button></a>
             </div>
-            <a href="#tools" id="totools" onclick="ScrollBt(this.id)" class=""><img id="arrow"src="./assets/arrow.svg" alt=""></a>
         </section>
-        <section id="tools">
-            <!-- <h1>tools</h1> -->
+
+        <section id="tools" onmouseover="sectionHover(this.id)">
+            <h1>Tools</h1>
             <div id="toolsList">
                 <div class="html 5">
                     <img src="./assets/tools/html-5 1.svg" alt="">
@@ -66,15 +66,13 @@
                     <h3>REACT</h3>
                 </div>
             </div>
-            <a href="#projects" id="toprojects" onclick="ScrollBt(this.id)" class=""><img id="arrow"src="./assets/arrow.svg" alt=""></a>
         </section>
 
-        <section id="projects">
+        <section id="projects" onmouseover="sectionHover(this.id)">
             <h1>projects</h1>
-            <a href="#contact" id="tocontact" onclick="ScrollBt(this.id)" class=""><img id="arrow"src="./assets/arrow.svg" alt=""></a>
         </section>
 
-        <section id="contact">
+        <section id="contact" onmouseover="sectionHover(this.id)">
             <h1>contact</h1>
         </section>
         
