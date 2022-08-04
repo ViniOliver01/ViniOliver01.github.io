@@ -177,6 +177,10 @@ h1 {
 }
 #toolsList {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 #toolsList div>img{
     transition: 0.3s;
@@ -198,6 +202,58 @@ h1 {
 }
 #toolsList div:hover>h3{
     opacity: 1;
+}
+/* section projects */
+#projects {
+    height: fit-content;
+}
+.projectsList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+.projectCard {
+    background-color: #2F2F2F;
+    border-radius: 25px;
+    margin: 3rem;
+    width: 450px;
+    height: 450px;
+    max-height: 450px;
+}
+.projectCard>img {
+    width: 450px;
+    height: 255px;
+    border-radius: 25px 25px 0 0;
+}
+.projectContent{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 25px 25px;
+    font-size: 1rem;
+}
+.projectContent>h2{
+    margin-bottom: 1rem;
+    font-size: 1.250rem;
+}
+.projectContent>span{
+    color: transparent;
+    flex: 1;
+    height: 100%;
+}
+.progaminlanguage{
+    display: flex;
+    padding: 0;
+    font-size: 0.875rem;
+    margin-top: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.progaminlanguage>div>img{
+    width: 33px;
+    margin-inline: 0.375rem;
 }
 
 @keyframes imgMove{
