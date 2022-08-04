@@ -334,4 +334,18 @@ h1 {
         border-radius: 16px;
         cursor: pointer;
     }
+    .projectCard {
+        margin: 2rem;
+        width: 80%;
+        height: fit-content;
+    }
+    .projectCard>img {
+        height: 10rem;
+        width: 100%;
+    }
+    .progaminlanguage{
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+    }
 }
