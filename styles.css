@@ -293,6 +293,9 @@ h1 {
     body {
         
     }
+    main {
+        margin-top: -10%;
+    }
     #toolsList {
         display: flex;
         flex-wrap: wrap;
