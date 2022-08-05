@@ -11,7 +11,11 @@
 
     <link rel="icon" href="./assets/logotipo-do-github.svg">
 
+    <!-- CSS -->
     <link rel="stylesheet" href="./styles.css">
+    <!-- CSS for card slider -->
+    <link rel="stylesheet" href="./carousel-slider.css">
+
     <title>Portfolio</title>
 </head>
 <body>
@@ -52,28 +56,17 @@
 
         <section id="tools" onmouseover="sectionHover(this.id)">
             <h1>TOOLS</h1>
-            <div id="toolsList">
-                <div class="html 5">
-                    <img src="./assets/tools/html-5 1.svg" alt="">
-                    <h3>HTML</h3>
-                </div>
-                <div class="css 3">
-                    <img src="./assets/tools/css-3 1.svg" alt="">
-                    <h3>CSS</h3>
-                </div>
-                <div class="typescript">
-                    <img src="./assets/tools/typescript 1.svg" alt="">
-                    <h3>TYPESCRIPT</h3>
-                </div>
-                <div class="javascript">
-                    <img src="./assets/tools/js 1.svg" alt="">
-                    <h3>JAVASCRIPT</h3>
-                </div>
-                <div class="react">
-                    <img src="./assets/tools/react 1.svg" alt="">
-                    <h3>REACT</h3>
-                </div>
+
+            <div class="carousel">
+                <ul class="carousel__list">
+                  <li class="carousel__item" data-pos="-2">HTML</li>
+                  <li class="carousel__item" data-pos="-1">CSS</li>
+                  <li class="carousel__item" data-pos="0">TYPESCRIPT</li>
+                  <li class="carousel__item" data-pos="1">JAVASCRIPT</li>
+                  <li class="carousel__item" data-pos="2">REACT</li>
+                </ul>
             </div>
+
         </section>
 
         <section id="projects" onmouseover="sectionHover(this.id)">
@@ -89,11 +82,11 @@
                         <div class="progaminlanguage">
                             <p>Programming Language:</p>
                             <div>
-                                <img src="./assets/tools/html-5 1.svg" alt="">
-                                <img src="./assets/tools/css-3 1.svg" alt="">
-                                <img src="./assets/tools/js 1.svg" alt="">
-                                <img src="./assets/tools/typescript 1.svg" alt="">
-                                <img src="./assets/tools/react 1.svg" alt="">
+                                <img src="./assets/tools/html.svg" alt="">
+                                <img src="./assets/tools/css.svg" alt="">
+                                <img src="./assets/tools/js.svg" alt="">
+                                <img src="./assets/tools/typescript.svg" alt="">
+                                <img src="./assets/tools/react.svg" alt="">
                             </div>
                         </div>
                     </div>
@@ -109,11 +102,11 @@
                         <div class="progaminlanguage">
                             <p>Programming Language:</p>
                             <div>
-                                <img src="./assets/tools/html-5 1.svg" alt="">
-                                <img src="./assets/tools/css-3 1.svg" alt="">
-                                <img src="./assets/tools/js 1.svg" alt="">
-                                <img src="./assets/tools/typescript 1.svg" alt="">
-                                <img src="./assets/tools/react 1.svg" alt="">
+                                <img src="./assets/tools/html.svg" alt="">
+                                <img src="./assets/tools/css.svg" alt="">
+                                <img src="./assets/tools/js.svg" alt="">
+                                <img src="./assets/tools/typescript.svg" alt="">
+                                <img src="./assets/tools/react.svg" alt="">
                             </div>
                         </div>
                     </div>
@@ -129,11 +122,11 @@
                         <div class="progaminlanguage">
                             <p>Programming Language:</p>
                             <div>
-                                <img src="./assets/tools/html-5 1.svg" alt="">
-                                <img src="./assets/tools/css-3 1.svg" alt="">
-                                <img src="./assets/tools/js 1.svg" alt="">
-                                <img src="./assets/tools/typescript 1.svg" alt="">
-                                <img src="./assets/tools/react 1.svg" alt="">
+                                <img src="./assets/tools/html.svg" alt="">
+                                <img src="./assets/tools/css.svg" alt="">
+                                <img src="./assets/tools/js.svg" alt="">
+                                <img src="./assets/tools/typescript.svg" alt="">
+                                <img src="./assets/tools/react.svg" alt="">
                             </div>
                         </div>
                     </div>
@@ -149,11 +142,11 @@
                         <div class="progaminlanguage">
                             <p>Programming Language:</p>
                             <div>
-                                <img src="./assets/tools/html-5 1.svg" alt="">
-                                <img src="./assets/tools/css-3 1.svg" alt="">
-                                <img src="./assets/tools/js 1.svg" alt="">
-                                <img src="./assets/tools/typescript 1.svg" alt="">
-                                <img src="./assets/tools/react 1.svg" alt="">
+                                <img src="./assets/tools/html.svg" alt="">
+                                <img src="./assets/tools/css.svg" alt="">
+                                <img src="./assets/tools/js.svg" alt="">
+                                <img src="./assets/tools/typescript.svg" alt="">
+                                <img src="./assets/tools/react.svg" alt="">
                             </div>
                         </div>
                     </div>
@@ -169,6 +162,8 @@
         
     </main>
 </body>
-
+<!-- JavaScript -->
 <script src="scripts.js"></script>
+<!-- JavaScript for card slider -->
+<script src="carousel-slider.js"></script>
 </html>

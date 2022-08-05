@@ -8,6 +8,7 @@
 }
 body {
     background-color: #101010;
+    user-select: none;
 }
 /* scrollBar */
 
@@ -290,19 +291,18 @@ h1 {
 
 /* Mobile View */
 @media screen and (max-width: 576px) {
-    body {
-        
-    }
     main {
         margin-top: -10%;
     }
     #toolsList {
         display: flex;
-        flex-wrap: wrap;
+        width: 80vw;
+        overflow-x: scroll;
         justify-content: center;
     }
-    .content>h1 {
-    }
+    #toolsList::-webkit-scrollbar {
+        display: none;
+      }
     .Profile>img {
         height: 9rem;
         width: 9rem;
@@ -316,11 +316,11 @@ h1 {
     nav {
         background-color: #101010;
         height: 10%;
+        align-items: center;
+        justify-content: center;
     }
     ul{
         padding-inline: 5%;
-        align-items: center;
-        justify-content: center;
         gap: 1rem;
         flex-wrap: wrap;
     }
