@@ -30,7 +30,7 @@
     border-radius: 12px;
     /* box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5); */
     /* position: absolute; */
-    transition: all 0.3s ease-in;
+    transition: all 0.3s linear;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -52,7 +52,7 @@
 @media screen and (min-width: 576px) {
 
 .carousel__item {
-    transition: all 0.2s ease-in;
+    transition: all 0.2s linear;
 }
 .carousel__item:hover {
     transform: translateY(-10%);
