@@ -302,6 +302,10 @@ h1 {
     opacity: 1;
     cursor: pointer;
 }
+footer {
+    display: flex;
+    justify-content: center;
+}
 
 @keyframes imgMove{
     0%{
