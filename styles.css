@@ -256,6 +256,48 @@ h1 {
     width: 33px;
     margin-inline: 0.375rem;
 }
+/* section Contact */
+.contactLinks {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+.Link {
+    width: fit-content;
+    height: fit-content;
+    padding: 0.8rem;
+    border-radius: 50%;
+    border: 3px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    opacity: 0.6;
+}
+.contactLinks img {
+    width: 2rem;
+    height: 2rem;
+}
+.contactLinks a {
+    text-decoration: none;
+}
+.listLink {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.listLink span {
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+.listLink:hover {
+    opacity: 1;
+    cursor: pointer;
+}
 
 @keyframes imgMove{
     0%{
@@ -350,5 +392,8 @@ h1 {
         display: flex;
         flex-direction: column;
         gap: 0.8rem;
+    }
+    .listLink {
+        opacity: 1;
     }
 }
