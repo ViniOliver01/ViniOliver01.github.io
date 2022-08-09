@@ -278,11 +278,19 @@ h1 {
     justify-content: center;
     align-items: center;
     transition: 0.3s;
-    opacity: 0.6;
+}
+.listLink h4, .listLink span{
+    color: #ffffff;
+    transition: 0.3s;
+}
+.listLink:hover h4, .listLink:hover span, .listLink:hover .Link{
+    color: #59B6E7;
+    border-color: #59B6E7;
 }
 .contactLinks img {
     width: 2rem;
     height: 2rem;
+    stroke: red;
 }
 .contactLinks a {
     text-decoration: none;
@@ -291,7 +299,6 @@ h1 {
     display: flex;
     align-items: center;
     gap: 1rem;
-    opacity: 0.7;
     transition: 0.3s;
 }
 .listLink span {
@@ -299,8 +306,9 @@ h1 {
     font-size: 0.875rem;
 }
 .listLink:hover {
-    opacity: 1;
     cursor: pointer;
+    fill: #0D4765;
+    color: #59B6E7;
 }
 footer {
     display: flex;
