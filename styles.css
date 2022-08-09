@@ -262,6 +262,11 @@ h1 {
     height: 450px;
     max-height: 450px;
     outline: 5px solid #0a344b;
+    transition: 0.3s;
+}
+
+.projectCard:hover {
+    outline-color: #1a72a1;
 }
 
 .projectCard>img {
