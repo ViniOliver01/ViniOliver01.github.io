@@ -277,21 +277,20 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.3s;
 }
 .listLink h4, .listLink span{
     color: #ffffff;
-    transition: 0.3s;
+}
+.listLink img {
+    width: 2rem;
+    height: 2rem;
 }
 .listLink:hover h4, .listLink:hover span, .listLink:hover .Link{
     color: #59B6E7;
     border-color: #59B6E7;
+    filter: brightness(0) saturate(100%) invert(65%) sepia(78%) saturate(780%) hue-rotate(171deg) brightness(97%) contrast(87%);
 }
-.contactLinks img {
-    width: 2rem;
-    height: 2rem;
-    stroke: red;
-}
+
 .contactLinks a {
     text-decoration: none;
 }
